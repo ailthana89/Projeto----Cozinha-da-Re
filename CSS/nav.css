@@ -1,5 +1,5 @@
 
-.bg-green-hard {
+.bg-green {
     background-color: #4D6737; 
 }
 
@@ -11,6 +11,10 @@
 
 a:hover {
     font-weight: bold;
+}
+
+. {
+    position: fixed;
 }
 
 .img-banner {
