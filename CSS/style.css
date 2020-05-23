@@ -250,7 +250,6 @@ a:hover {
 
 @media screen and (max-width: 764px){
   .mobile {
-    display: flex;
-    justify-content: center;
+   
   }
 }
