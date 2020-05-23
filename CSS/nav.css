@@ -13,10 +13,6 @@ a:hover {
     font-weight: bold;
 }
 
-. {
-    position: fixed;
-}
-
 .img-banner {
     height: 64vh;
     object-fit: cover;
