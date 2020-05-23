@@ -100,7 +100,7 @@
 
   
   @media screen and (max-width: 800px){ 
-    .card-deck{   
+    .card-deck, .card__tamanho{   
       width:80% ;
     }
 
