@@ -22,16 +22,11 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-green-hard">
             <div class="container p-2">
-            <!-- <a class="navbar-brand text-font text-white" href="#home">Cozinha da Rê</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul class="navbar-nav">
-
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#home">Home</a> 
-                </li> -->
                 <li class="nav-item">
                   <a class="nav-link text-nav text-white" href="#historia">Nossa História</a> <!--adicionar id-->
                 </li>
@@ -57,16 +52,16 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="img/fruit2.jpg" class="d-block img-fluid w-100 img-banner" alt="...">
+                  <img src="img/fruit2.jpg" class="d-block img-banner" alt="...">
               </div> 
               <div class="carousel-item">
-                  <img src="img/bolo.jpg" class="d-block img-fluid w-100     img-banner img-chia" alt="...">
+                  <img src="img/cupcakes.jpg" class="d-block img-banner" alt="...">
               </div> 
               <div class="carousel-item">
-                  <img src="img/geleia-de-chia3.jpg" class="d-block img-fluid w-100 img-banner img-chia" alt="...">
+                  <img src="img/geleia-de-chia4.jpg" class="d-block  img-banner" alt="...">
               </div> 
                 <div class="carousel-item">
-                    <img src="img/pão2.jpg" class="d-block img-fluid w-100 img-banner img-pao" alt="...">
+                    <img src="img/pão2.jpg" class="d-block img-banner" alt="...">
                 </div>  
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,8 +74,12 @@
             </a>
           </div>
           <div class="img-logo">
-            <img src="img/logo cozinha da re.png" class="logo-txt" alt="">
+
+            <!-- <img src="img/logo cozinha da re.png" class="logo-txt" alt=""> -->
             <img src="img/logo cozinha da re texto png.png" class="logo"  alt="">
+
+            <img src="img/logo cozinha da re.png" class="logo" alt="logo">
+
           </div>
     </header>
 
@@ -113,27 +112,30 @@
 
         </section>
         <!--Nayla Souza -->
-        <section class="contato">
+        <section class="contato container">
 
+          
             <h3>CONTATO</h3>
             <!-- caixa grandona -->
             <div class="d-flex bd-highlight flex-column flex-lg-row justify-content-center w-90"> 
                 <div class="caixa_formulario p-3 w-75 bd-highlight">
                     <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/naylasouzariibeiro@gmail.com" method="post">
-                        <div class="form-row">
-                            <div class="col"> Nome:<input name="nome" id="full-name" type="text" class="form-control" placeholder="Digite o seu nome"></div>
-                            <div class="col"> E-mail:<input name="email" id="email-address" type="text" class="form-control" placeholder="Digite o seu email"></div>
+                        <div class="form-row ">
+                            <div class="col"> Nome:<input name="nome" id="full-name" type="text" class="form-control" placeholder="Digite o seu nome" required=""></div>
+                            <div class="col"> E-mail:<input name="email" id="email-address" type="text" class="form-control" placeholder="Digite o seu email" required=""></div>
                         </div>
                         <div class="form-row">
-                            <div class="col"> Telefone/Celular<input name="telefone" id="timely" type="text" class="form-control" placeholder="(00) 00000-0000"></div>
+                            <div class="col "> Telefone/Celular<input name="telefone" id="timely" type="text" class="form-control" placeholder="(00) 00000-0000" required=""></div>
                             <div class="col"> Assunto:<input type="text" name="assunto" class="form-control" placeholder="Assunto"></div> 
                         </div>
-                        <div class="form-row">
-                                <label for="exampleFormControlTextarea1">Mensagem:</label>
-                                <textarea class="form-control" name="messagem" id="message"  rows="5" placeholder="Me conte um pouco mais sobre a sua solicitação."></textarea>
+                        <div class="form-row form-row-textarea">
+                                <label class="espaco_formulario" for="exampleFormControlTextarea1">Mensagem:</label>
+                                <textarea class="form-control" name="messagem" id="message"  rows="5" placeholder="Me conte um pouco mais sobre a sua solicitação." required=""></textarea>
                               
                         </div>
-                        <input type="submit">
+                        
+                        <input class="btn-enviar" type="submit">
+                        
                     </form>
                     
                 </div>
@@ -141,8 +143,8 @@
                 <div class="caixa_contatopessoal w-25 p-2 bd-highlight">
                     
                     <p><i class="fas fa-map-marked-alt icone_contato"></i>Zona Sul/SP</p>
-                    <p><i class="fas fa-phone-alt icone_contato"></i>(13) 97412-0087</p>
-                    <p><i class="fas fa-envelope-open-text icone_contato"></i>Cozinhadaregina@gmail.com</p>
+                    <p><i class="fas fa-phone-alt icone_contato"></i>(11) 94703-6933</p>
+                    <p><i class="fas fa-envelope-open-text icone_contato"></i>cozinhadaregina@gmail.com</p>
     
                 </div>
           
@@ -154,8 +156,8 @@
  
     <footer class="footer text-center md-3 bg-footer p-3">
 
-        <a class="rede_social_footer icone_contato" href="#" alt="Icone facebook">
-            <i class="fab fa-facebook-f"></i>
+        <a class="rede_social_footer icone_contato" href="https://www.facebook.com/cozinhadareluna/ " target="_blank" alt="Icone facebook">
+            <i class="fab fa-facebook-f"></i> 
         </a>
         
         <a class="rede_social_footer icone_contato" href="#" alt="Icone instagram">
