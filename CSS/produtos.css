@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .container-card {
@@ -22,14 +23,6 @@
     padding: 15px;
     font-size: 2rem;
     color: rgb(243, 253, 174);
-  }
-  
-
-.produto__titulo {
-    color: #4D6737;
-    font-size: 30px;
-    margin: 30px auto;
-    text-align: center;
   }
   
   .card__border {
