@@ -1,12 +1,19 @@
+p{
+    font-family: 'Catamaran', sans-serif;
+}
+
+.titulos{
+    font-family: 'Bebas Neue', cursive;
+    color: #4D6737;
+    font-size: 48px;
+    margin: 50px;
+    text-align: center;
+}
+
 .container .container_historia{
     min-height: 80vh;
     height: 500px;
     display: flex;
-}
-
-.titulo_nossa-historia{
-    color: #4D6737;
-    text-align: center;
 }
 
 .container_historia{
@@ -20,6 +27,15 @@
 
 .esquerda{
     text-align: center;
+}
+
+h5{
+    margin: 10px;
+    color: #4D6737;
+}
+
+a{
+    color: #4D6737;
 }
 
 .container_historia p{
