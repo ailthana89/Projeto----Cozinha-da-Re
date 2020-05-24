@@ -63,9 +63,9 @@ a:hover {
 }
 
 .container_historia img{
-  height: 400px;
   border-radius: 10px;
   max-width: 80rem;
+  width: 100%;
 }
 
 .esquerda{
