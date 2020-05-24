@@ -3,6 +3,22 @@ html {
 }
 
 /* nav-header */
+
+.titulos-page {
+  color: #4D6737;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  padding: 50px;
+}
+
+p .text-nav {
+  font-family: 'Catamaran', sans-serif;
+}
+
+a {
+  color: #4D6737;
+}
+
 .bg-green {
   background-color: #4D6737; 
 }
@@ -182,7 +198,7 @@ a:hover {
 
 .contato h3{
   text-align: center;
-  margin: 70px 20px 10px;
+  margin: 10px 20px 10px;
   
 }
 .contato input, .form-control{ 
@@ -228,7 +244,7 @@ a:hover {
   margin-bottom: 70px;
 }
 
-@media screen and (max-width: 990px){
+@media (max-width: 990px){
   .logo {
       margin-left: 200px;
   }  
@@ -245,10 +261,10 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 764px){
+/* @media screen and (max-width: 764px){
   .mobile {
     display: flex;
     align-items: center; 
     justify-content: center; 
   }
-}
+} */
